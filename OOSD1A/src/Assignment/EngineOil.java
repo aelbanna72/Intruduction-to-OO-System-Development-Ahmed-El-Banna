@@ -4,8 +4,8 @@ package Assignment;
 public class EngineOil extends StockItem {
 
     // Additional private instance variables
-    private String viscosity;    // e.g. "5W-30"
-    private int volumeLitres;    // e.g. 5
+    private String viscosity;    
+    private int volumeLitres;    
 
 
     public EngineOil(String stockCode, int quantity, double price, String viscosity, int volumeLitres) {
