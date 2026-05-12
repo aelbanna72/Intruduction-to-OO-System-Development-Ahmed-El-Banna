@@ -4,8 +4,8 @@ package Assignment;
 public class CarBattery extends StockItem {
 
     // Additional private instance variables
-    private int capacityAh;       // Ampere-hour rating, e.g. 60
-    private String batteryType;   // e.g. "AGM", "Lead-Acid"
+    private int capacityAh;       
+    private String batteryType;   
 
 
     public CarBattery(String stockCode, int quantity, double price, int capacityAh, String batteryType) {
