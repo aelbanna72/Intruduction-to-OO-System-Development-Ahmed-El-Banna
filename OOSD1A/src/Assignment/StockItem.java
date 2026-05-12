@@ -7,7 +7,7 @@ public class StockItem {
     private static final double VAT_RATE = 17.5;
 
     // Instance variables
-    private final String stockCode;  // fixed (final)
+    private final String stockCode;  // fixed 
     private int quantity;
     private double price;
 
