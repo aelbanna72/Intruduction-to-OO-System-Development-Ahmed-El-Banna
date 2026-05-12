@@ -42,7 +42,7 @@ public class TestPolymorphism {
 
         System.out.println("=== Step 3: Polymorphism Test ===\n");
 
-        // Array of StockItem holding 3 different subclass instances (+ NavSys = 4 slots)
+        // Array of StockItem holding 3 different subclass instances 
         StockItem[] s = new StockItem[4];
 
         s[0] = new NavSys("NS101", 10, 99.99);
@@ -50,7 +50,7 @@ public class TestPolymorphism {
         s[2] = new EngineOil("EO301", 20, 24.99, "5W-30", 5);
         s[3] = new CarBattery("CB401", 8, 89.99, 60, "AGM");
 
-        // Loop through each item and call itemInstance (polymorphic dispatch)
+       
         for (StockItem item : s) {
             itemInstance(item);
         }
