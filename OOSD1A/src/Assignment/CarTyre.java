@@ -4,8 +4,8 @@ package Assignment;
 public class CarTyre extends StockItem {
 
     // Additional private instance variables
-    private String tyreSize;     // e.g. "205/55R16"
-    private String tyreBrand;    // e.g. "Michelin"
+    private String tyreSize;     
+    private String tyreBrand;    
 
 
     public CarTyre(String stockCode, int quantity, double price, String tyreSize, String tyreBrand) {
